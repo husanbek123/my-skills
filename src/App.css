@@ -1,4 +1,46 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.step {
+}
+
+.step .img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.step h1 {
+  margin-bottom: 20px;
+}
+
+.step p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.greeting-step {
+}
+
+.test {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 400px;
+  border-radius: 12px;
+  padding: 10px 16px;
+  border: 2px solid transparent;
+  background-color: white;
+
+  justify-content: space-evenly;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +77,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
